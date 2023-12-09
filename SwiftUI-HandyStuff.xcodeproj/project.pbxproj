@@ -11,6 +11,7 @@
 		81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0F2B2451C90082CBFE /* ContentView.swift */; };
 		81A8BE122B2451CB0082CBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE112B2451CB0082CBFE /* Assets.xcassets */; };
 		81A8BE152B2451CB0082CBFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE142B2451CB0082CBFE /* Preview Assets.xcassets */; };
+		81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE1B2B2452140082CBFE /* GeometryReaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		81A8BE0F2B2451C90082CBFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81A8BE112B2451CB0082CBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A8BE142B2451CB0082CBFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81A8BE1B2B2452140082CBFE /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				81A8BE0F2B2451C90082CBFE /* ContentView.swift */,
 				81A8BE112B2451CB0082CBFE /* Assets.xcassets */,
 				81A8BE132B2451CB0082CBFE /* Preview Content */,
+				81A8BE1B2B2452140082CBFE /* GeometryReaderView.swift */,
 			);
 			path = "SwiftUI-HandyStuff";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */,
 				81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */,
+				81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
