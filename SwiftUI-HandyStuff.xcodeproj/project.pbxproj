@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */; };
 		81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */; };
 		81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0F2B2451C90082CBFE /* ContentView.swift */; };
 		81A8BE122B2451CB0082CBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE112B2451CB0082CBFE /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
 		81A8BE0A2B2451C90082CBFE /* SwiftUI-HandyStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-HandyStuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HandyStuffApp.swift; sourceTree = "<group>"; };
 		81A8BE0F2B2451C90082CBFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				81A8BE112B2451CB0082CBFE /* Assets.xcassets */,
 				81A8BE132B2451CB0082CBFE /* Preview Content */,
 				81A8BE1B2B2452140082CBFE /* GeometryReaderView.swift */,
+				81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */,
 			);
 			path = "SwiftUI-HandyStuff";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */,
 				81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */,
 				81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */,
 				81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */,
