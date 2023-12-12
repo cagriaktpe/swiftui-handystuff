@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "B9312F27-EFAD-4D5D-BF06-8FDE21178BFD",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SwiftUI-HandyStuff.xcodeproj",
+      "identifier" : "81A8BE092B2451C90082CBFE",
+      "name" : "SwiftUI-HandyStuff"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SwiftUI-HandyStuff.xcodeproj",
+        "identifier" : "81C160C12B285F1C00FADD0D",
+        "name" : "SwiftUI-HandyStuffUI_Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
