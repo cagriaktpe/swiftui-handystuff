@@ -53,6 +53,7 @@ extension UITestingExampleView {
                 .padding()
                 .background(Color.white)
                 .cornerRadius(10)
+                .accessibilityIdentifier("NameTextField")
 
             Button {
                 withAnimation(.spring()) {
@@ -67,6 +68,7 @@ extension UITestingExampleView {
                     .background(Color.blue)
                     .cornerRadius(10)
             }
+            .accessibilityIdentifier("SignUpButton")
         }
         .padding()
     }

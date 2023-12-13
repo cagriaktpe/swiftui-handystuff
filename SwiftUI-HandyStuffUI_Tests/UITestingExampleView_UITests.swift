@@ -18,10 +18,12 @@ import XCTest
 // Testing_Structure: Given, When, Then
 
 final class UITestingExampleView_UITests: XCTestCase {
+    
+    let app = XCUIApplication()
 
     override func setUpWithError() throws {
         continueAfterFailure = false
-        XCUIApplication().launch()
+        app.launch()
     }
 
     override func tearDownWithError() throws {
@@ -29,15 +31,17 @@ final class UITestingExampleView_UITests: XCTestCase {
     }
     
     func test_UITestingExampleView_signUpButton_shouldNotSignIn() {
-        XCUIApplication().buttons["Sign Up"].tap()
+        app.buttons["Sign Up"].tap()
         
     }
     
     func test_UITestingExampleView_signUpButton_shouldSignIn() {
         
+        // given
+        let textField = app.textFields["NameTextField"]
         
-        let app = XCUIApplication()
-        app.textFields["Enter your name"].tap()
+        // when
+        textField.tap()
         
         let aKey = app/*@START_MENU_TOKEN@*/.keys["A"]/*[[".keyboards.keys[\"A\"]",".keys[\"A\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
         aKey.tap()
@@ -55,10 +59,16 @@ final class UITestingExampleView_UITests: XCTestCase {
         pKey.tap()
         eKey.tap()
         
-        app.buttons["Sign Up"].tap()
-        app.navigationBars["Welcome"].staticTexts["Welcome"].tap()
-       
+        let returnButton = app.buttons["Return"]
+        returnButton.tap()
         
+        let signUpButton = app.buttons["SignUpButton"]
+        signUpButton.tap()
+        
+        let navBar = app.navigationBars["Welcome"]
+        
+        // then
+        XCTAssertTrue(navBar.exists)
     }
 }
 
