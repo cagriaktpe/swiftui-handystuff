@@ -51,7 +51,8 @@ extension UITestingExampleView {
         VStack {
             TextField(viewModel.placeholderText, text: $viewModel.textFieldText)
                 .padding()
-                .background(Color.white)
+                .background(Color.secondary)
+                .foregroundStyle(.primary)
                 .cornerRadius(10)
                 .accessibilityIdentifier("NameTextField")
 
@@ -101,6 +102,7 @@ struct SignInHomeView: View {
                         dismissButton: .default(Text("OK"))
                     )
                 }
+                .accessibilityIdentifier("ShowAlertButton")
                 
                 NavigationLink(destination: Text("Destination")) {
                     Text("Go to destination")

@@ -18,7 +18,6 @@ import XCTest
 // Testing_Structure: Given, When, Then
 
 final class UITestingExampleView_UITests: XCTestCase {
-    
     let app = XCUIApplication()
 
     override func setUpWithError() throws {
@@ -27,48 +26,83 @@ final class UITestingExampleView_UITests: XCTestCase {
     }
 
     override func tearDownWithError() throws {
-        
     }
-    
+
     func test_UITestingExampleView_signUpButton_shouldNotSignIn() {
-        app.buttons["Sign Up"].tap()
+        // given
+        let textField = app.textFields["NameTextField"]
+
+        // when
+        textField.tap()
+
+        let signUpButton = app.buttons["SignUpButton"]
+        signUpButton.tap()
+
+        let navBar = app.navigationBars["Welcome"]
+
+        // then
+        XCTAssertFalse(navBar.exists)
+    }
+
+    func test_UITestingExampleView_signUpButton_shouldSignIn() {
+        // given
+        let textField = app.textFields["NameTextField"]
+
+        // when
+        textField.tap()
+
+        textField.typeText("Samet")
+
+        let returnButton = app.buttons["Return"]
+        returnButton.tap()
+
+        let signUpButton = app.buttons["SignUpButton"]
+        signUpButton.tap()
+
+        let navBar = app.navigationBars["Welcome"]
+
+        // then
+        XCTAssertTrue(navBar.exists)
+    }
+
+    func test_SignInHomeView_showAlertButton_shouldDisplayAlert() {
         
+        
+        
+                        
     }
     
-    func test_UITestingExampleView_signUpButton_shouldSignIn() {
-        
+    func test_SignInHomeView_showAlertButton_shouldDisplayAndDismissAlert() {
         // given
         let textField = app.textFields["NameTextField"]
         
         // when
         textField.tap()
-        
-        let aKey = app/*@START_MENU_TOKEN@*/.keys["A"]/*[[".keyboards.keys[\"A\"]",".keys[\"A\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
-        aKey.tap()
-        
-        let kKey = app/*@START_MENU_TOKEN@*/.keys["k"]/*[[".keyboards.keys[\"k\"]",".keys[\"k\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
-        kKey.tap()
-        
-        let tKey = app/*@START_MENU_TOKEN@*/.keys["t"]/*[[".keyboards.keys[\"t\"]",".keys[\"t\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
-        tKey.tap()
-        
-        let eKey = app/*@START_MENU_TOKEN@*/.keys["e"]/*[[".keyboards.keys[\"e\"]",".keys[\"e\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
-        eKey.tap()
-        
-        let pKey = app/*@START_MENU_TOKEN@*/.keys["p"]/*[[".keyboards.keys[\"p\"]",".keys[\"p\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
-        pKey.tap()
-        eKey.tap()
-        
+
+        textField.typeText("Samet")
+
         let returnButton = app.buttons["Return"]
         returnButton.tap()
-        
+
         let signUpButton = app.buttons["SignUpButton"]
         signUpButton.tap()
-        
+
         let navBar = app.navigationBars["Welcome"]
+        XCTAssertTrue(navBar.exists)
+        
+        let alertButton = app.buttons["ShowAlertButton"]
+        alertButton.tap()
+        
+        let alert = app.alerts["Welcome!"]
+        XCTAssertTrue(alert.exists)
+        
+        let okButton = app.alerts["Welcome!"].scrollViews.otherElements.buttons["OK"]
+        sleep(1)
+        okButton.tap()
         
         // then
-        XCTAssertTrue(navBar.exists)
+        sleep(1)
+        XCTAssertFalse(alert.exists)
+       
     }
 }
-
