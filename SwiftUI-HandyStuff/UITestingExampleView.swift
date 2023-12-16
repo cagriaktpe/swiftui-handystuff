@@ -113,6 +113,7 @@ struct SignInHomeView: View {
                         .background(Color.blue)
                         .cornerRadius(10)
                 }
+                .accessibilityIdentifier("NavigationLinkToDestination")
             }
             .padding()
             .navigationTitle("Welcome")

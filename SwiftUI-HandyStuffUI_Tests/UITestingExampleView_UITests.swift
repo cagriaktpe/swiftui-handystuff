@@ -90,19 +90,21 @@ final class UITestingExampleView_UITests: XCTestCase {
         let navBar = app.navigationBars["Welcome"]
         XCTAssertTrue(navBar.exists)
         
-        let alertButton = app.buttons["ShowAlertButton"]
-        alertButton.tap()
+        let showAlertButton = app.buttons["ShowAlertButton"]
+        showAlertButton.tap()
         
-        let alert = app.alerts["Welcome!"]
-        XCTAssertTrue(alert.exists)
+        let alert = app.alerts.firstMatch
         
         let okButton = app.alerts["Welcome!"].scrollViews.otherElements.buttons["OK"]
-        sleep(1)
+        let okButtonExists = okButton.waitForExistence(timeout: 5)
+        XCTAssertTrue(okButtonExists)
+        
         okButton.tap()
         
+        let alertExists = okButton.waitForExistence(timeout: 5)
+        
         // then
-        sleep(1)
-        XCTAssertFalse(alert.exists)
+        XCTAssertFalse(alertExists)
        
     }
 }
