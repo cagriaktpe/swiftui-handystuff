@@ -72,6 +72,13 @@
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "-UITest-startSignedIn2"
+            value = "true"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
