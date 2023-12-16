@@ -10,7 +10,11 @@ import SwiftUI
 class UITestingExampleViewModel: ObservableObject {
     let placeholderText: String = "Enter your name"
     @Published var textFieldText: String = ""
-    @Published var currentUserIsSignedIn: Bool = false
+    @Published var currentUserIsSignedIn: Bool
+    
+    init(currentUserIsSignedIn: Bool) {
+        self.currentUserIsSignedIn = currentUserIsSignedIn
+    }
 
     func signUpButtonTapped() {
         guard textFieldText.isEmpty == false else { return }
@@ -19,8 +23,12 @@ class UITestingExampleViewModel: ObservableObject {
 }
 
 struct UITestingExampleView: View {
-    @StateObject private var viewModel = UITestingExampleViewModel()
-
+    @StateObject private var viewModel: UITestingExampleViewModel
+    
+    init(currentUserIsSignedIn: Bool) {
+        _viewModel = StateObject(wrappedValue: UITestingExampleViewModel(currentUserIsSignedIn: currentUserIsSignedIn))
+    }
+    
     var body: some View {
         ZStack {
             LinearGradient(
@@ -43,7 +51,7 @@ struct UITestingExampleView: View {
 }
 
 #Preview {
-    UITestingExampleView()
+    UITestingExampleView(currentUserIsSignedIn: false)
 }
 
 extension UITestingExampleView {

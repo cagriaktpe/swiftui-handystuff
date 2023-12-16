@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct SwiftUI_HandyStuffApp: App {
+    let userIsSignedIn: Bool
+    
+    init() {
+        self.userIsSignedIn = CommandLine.arguments.contains("-UITest_startSignedIn") ? true : false
+        print("userSignedIn: \(userIsSignedIn)")
+        
+    }
+    
     var body: some Scene {
         WindowGroup {
-            UITestingExampleView()
+            UITestingExampleView(currentUserIsSignedIn: userIsSignedIn)
         }
     }
 }

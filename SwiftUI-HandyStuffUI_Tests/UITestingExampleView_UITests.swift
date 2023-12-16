@@ -56,15 +56,10 @@ final class UITestingExampleView_UITests: XCTestCase {
         signUpAndSignIn(shouldTypeText: true)
         
         // when
-        let navBar = app.navigationBars["Welcome"]
-        XCTAssertTrue(navBar.exists)
-        
-        let showAlertButton = app.buttons["ShowAlertButton"]
-        showAlertButton.tap()
-        
-        let alert = app.alerts.firstMatch
-    
+        tapAlertButton(shouldDismissAlert: false)
+
         // then
+        let alert = app.alerts.firstMatch
         XCTAssertTrue(alert.exists)
     }
     
@@ -73,23 +68,8 @@ final class UITestingExampleView_UITests: XCTestCase {
         signUpAndSignIn(shouldTypeText: true)
         
         // when
-        let navBar = app.navigationBars["Welcome"]
-        XCTAssertTrue(navBar.exists)
-        
-        let showAlertButton = app.buttons["ShowAlertButton"]
-        showAlertButton.tap()
-        
-        let alert = app.alerts.firstMatch
-        XCTAssertTrue(alert.exists)
-        
-        let okButton = app.alerts["Welcome!"].scrollViews.otherElements.buttons["OK"]
-        let okButtonExists = okButton.waitForExistence(timeout: 5)
-        XCTAssertTrue(okButtonExists)
-        
-        okButton.tap()
-        
-        let alertExists = okButton.waitForExistence(timeout: 5)
-        
+        tapAlertButton(shouldDismissAlert: true)
+        let alertExists = app.alerts.firstMatch.waitForExistence(timeout: 5)
         // then
         XCTAssertFalse(alertExists)
        
@@ -100,15 +80,10 @@ final class UITestingExampleView_UITests: XCTestCase {
         signUpAndSignIn(shouldTypeText: true)
         
         // when
-        let navBar = app.navigationBars["Welcome"]
-        XCTAssertTrue(navBar.exists)
-        
-        let navLinkButton = app.buttons["NavigationLinkToDestination"]
-        navLinkButton.tap()
-        
-        let destinationText = app.staticTexts["Destination"]
+        tapNavigationLink(shouldDismissDestination: false)
         
         // then
+        let destinationText = app.staticTexts["Destination"]
         XCTAssertTrue(destinationText.exists)
     }
     
@@ -117,19 +92,10 @@ final class UITestingExampleView_UITests: XCTestCase {
         signUpAndSignIn(shouldTypeText: true)
         
         // when
-        let navBar = app.navigationBars["Welcome"]
-        XCTAssertTrue(navBar.exists)
-        
-        let navLinkButton = app.buttons["NavigationLinkToDestination"]
-        navLinkButton.tap()
-        
-        let destinationText = app.staticTexts["Destination"]
-        XCTAssertTrue(destinationText.exists)
-        
-        let backButton = app.navigationBars.buttons["Welcome"]
-        backButton.tap()
+        tapNavigationLink(shouldDismissDestination: true)
         
         // then
+        let navBar = app.navigationBars["Welcome"]
         XCTAssertTrue(navBar.exists)
     }
     
@@ -152,6 +118,28 @@ extension UITestingExampleView_UITests {
         
         let signUpButton = app.buttons["SignUpButton"]
         signUpButton.tap()
+    }
+    
+    func tapAlertButton(shouldDismissAlert: Bool) {
+        let showAlertButton = app.buttons["ShowAlertButton"]
+        showAlertButton.tap()
+        
+        if shouldDismissAlert {
+            let alert = app.alerts.firstMatch
+            let okButton = alert.buttons["OK"]
+            
+            okButton.tap()
+        }
+    }
+    
+    func tapNavigationLink(shouldDismissDestination: Bool) {
+        let navLinkButton = app.buttons["NavigationLinkToDestination"]
+        navLinkButton.tap()
+        
+        if shouldDismissDestination {
+            let backButton = app.navigationBars.buttons["Welcome"]
+            backButton.tap()
+        }
     }
     
 }
