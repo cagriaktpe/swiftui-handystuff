@@ -53,19 +53,9 @@ final class UITestingExampleView_UITests: XCTestCase {
 
     func test_SignInHomeView_showAlertButton_shouldDisplayAlert() {
         // given
-        let textField = app.textFields["NameTextField"]
+        signUpAndSignIn(shouldTypeText: true)
         
         // when
-        textField.tap()
-
-        textField.typeText("Samet")
-
-        let returnButton = app.buttons["Return"]
-        returnButton.tap()
-
-        let signUpButton = app.buttons["SignUpButton"]
-        signUpButton.tap()
-
         let navBar = app.navigationBars["Welcome"]
         XCTAssertTrue(navBar.exists)
         
@@ -80,19 +70,9 @@ final class UITestingExampleView_UITests: XCTestCase {
     
     func test_SignInHomeView_showAlertButton_shouldDisplayAndDismissAlert() {
         // given
-        let textField = app.textFields["NameTextField"]
+        signUpAndSignIn(shouldTypeText: true)
         
         // when
-        textField.tap()
-
-        textField.typeText("Samet")
-
-        let returnButton = app.buttons["Return"]
-        returnButton.tap()
-
-        let signUpButton = app.buttons["SignUpButton"]
-        signUpButton.tap()
-
         let navBar = app.navigationBars["Welcome"]
         XCTAssertTrue(navBar.exists)
         
@@ -100,6 +80,7 @@ final class UITestingExampleView_UITests: XCTestCase {
         showAlertButton.tap()
         
         let alert = app.alerts.firstMatch
+        XCTAssertTrue(alert.exists)
         
         let okButton = app.alerts["Welcome!"].scrollViews.otherElements.buttons["OK"]
         let okButtonExists = okButton.waitForExistence(timeout: 5)
@@ -116,19 +97,9 @@ final class UITestingExampleView_UITests: XCTestCase {
     
     func test_SignInHomeView_navigationLinkToDestination_shouldNavigateToDestination() {
         // given
-        let textField = app.textFields["NameTextField"]
+        signUpAndSignIn(shouldTypeText: true)
         
         // when
-        textField.tap()
-
-        textField.typeText("Samet")
-
-        let returnButton = app.buttons["Return"]
-        returnButton.tap()
-
-        let signUpButton = app.buttons["SignUpButton"]
-        signUpButton.tap()
-        
         let navBar = app.navigationBars["Welcome"]
         XCTAssertTrue(navBar.exists)
         
@@ -142,21 +113,10 @@ final class UITestingExampleView_UITests: XCTestCase {
     }
     
     func test_SignInHomeView_navigationLinkToDestination_shouldNavigateToDestinationAndGoBack() {
-        
         // given
-        let textField = app.textFields["NameTextField"]
+        signUpAndSignIn(shouldTypeText: true)
         
         // when
-        textField.tap()
-
-        textField.typeText("Samet")
-
-        let returnButton = app.buttons["Return"]
-        returnButton.tap()
-
-        let signUpButton = app.buttons["SignUpButton"]
-        signUpButton.tap()
-        
         let navBar = app.navigationBars["Welcome"]
         XCTAssertTrue(navBar.exists)
         
