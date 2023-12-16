@@ -12,9 +12,9 @@ struct SwiftUI_HandyStuffApp: App {
     let userIsSignedIn: Bool
     
     init() {
-        //self.userIsSignedIn = CommandLine.arguments.contains("-UITest_startSignedIn") ? true : false
+        self.userIsSignedIn = CommandLine.arguments.contains("-UITest_startSignedIn") ? true : false
         //self.userIsSignedIn = ProcessInfo.processInfo.arguments.contains("-UITest_startSignedIn") ? true : false
-        self.userIsSignedIn = ProcessInfo.processInfo.environment["-UITest-startSignedIn2"] == "true" ? true : false
+        //self.userIsSignedIn = ProcessInfo.processInfo.environment["-UITest-startSignedIn2"] == "true" ? true : false
         print("userSignedIn: \(userIsSignedIn)")
         
     }
