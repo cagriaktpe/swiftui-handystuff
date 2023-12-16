@@ -27,17 +27,13 @@ final class UITestingExampleView_UITests: XCTestCase {
 
     override func tearDownWithError() throws {
     }
-
+    
+    // tests
     func test_UITestingExampleView_signUpButton_shouldNotSignIn() {
         // given
-        let textField = app.textFields["NameTextField"]
+        signUpAndSignIn(shouldTypeText: false)
 
         // when
-        textField.tap()
-
-        let signUpButton = app.buttons["SignUpButton"]
-        signUpButton.tap()
-
         let navBar = app.navigationBars["Welcome"]
 
         // then
@@ -46,8 +42,19 @@ final class UITestingExampleView_UITests: XCTestCase {
 
     func test_UITestingExampleView_signUpButton_shouldSignIn() {
         // given
-        let textField = app.textFields["NameTextField"]
+        signUpAndSignIn(shouldTypeText: true)
 
+        // when
+        let navBar = app.navigationBars["Welcome"]
+
+        // then
+        XCTAssertTrue(navBar.exists)
+    }
+
+    func test_SignInHomeView_showAlertButton_shouldDisplayAlert() {
+        // given
+        let textField = app.textFields["NameTextField"]
+        
         // when
         textField.tap()
 
@@ -60,16 +67,15 @@ final class UITestingExampleView_UITests: XCTestCase {
         signUpButton.tap()
 
         let navBar = app.navigationBars["Welcome"]
-
-        // then
         XCTAssertTrue(navBar.exists)
-    }
-
-    func test_SignInHomeView_showAlertButton_shouldDisplayAlert() {
         
+        let showAlertButton = app.buttons["ShowAlertButton"]
+        showAlertButton.tap()
         
-        
-                        
+        let alert = app.alerts.firstMatch
+    
+        // then
+        XCTAssertTrue(alert.exists)
     }
     
     func test_SignInHomeView_showAlertButton_shouldDisplayAndDismissAlert() {
@@ -107,4 +113,85 @@ final class UITestingExampleView_UITests: XCTestCase {
         XCTAssertFalse(alertExists)
        
     }
+    
+    func test_SignInHomeView_navigationLinkToDestination_shouldNavigateToDestination() {
+        // given
+        let textField = app.textFields["NameTextField"]
+        
+        // when
+        textField.tap()
+
+        textField.typeText("Samet")
+
+        let returnButton = app.buttons["Return"]
+        returnButton.tap()
+
+        let signUpButton = app.buttons["SignUpButton"]
+        signUpButton.tap()
+        
+        let navBar = app.navigationBars["Welcome"]
+        XCTAssertTrue(navBar.exists)
+        
+        let navLinkButton = app.buttons["NavigationLinkToDestination"]
+        navLinkButton.tap()
+        
+        let destinationText = app.staticTexts["Destination"]
+        
+        // then
+        XCTAssertTrue(destinationText.exists)
+    }
+    
+    func test_SignInHomeView_navigationLinkToDestination_shouldNavigateToDestinationAndGoBack() {
+        
+        // given
+        let textField = app.textFields["NameTextField"]
+        
+        // when
+        textField.tap()
+
+        textField.typeText("Samet")
+
+        let returnButton = app.buttons["Return"]
+        returnButton.tap()
+
+        let signUpButton = app.buttons["SignUpButton"]
+        signUpButton.tap()
+        
+        let navBar = app.navigationBars["Welcome"]
+        XCTAssertTrue(navBar.exists)
+        
+        let navLinkButton = app.buttons["NavigationLinkToDestination"]
+        navLinkButton.tap()
+        
+        let destinationText = app.staticTexts["Destination"]
+        XCTAssertTrue(destinationText.exists)
+        
+        let backButton = app.navigationBars.buttons["Welcome"]
+        backButton.tap()
+        
+        // then
+        XCTAssertTrue(navBar.exists)
+    }
+    
+}
+
+// MARK: - Helper Methods
+extension UITestingExampleView_UITests {
+    
+    func signUpAndSignIn(shouldTypeText: Bool) {
+        let textField = app.textFields["NameTextField"]
+
+        textField.tap()
+        
+        if shouldTypeText {
+            textField.typeText("Samet")
+            
+            let returnButton = app.buttons["Return"]
+            returnButton.tap()
+        }
+        
+        let signUpButton = app.buttons["SignUpButton"]
+        signUpButton.tap()
+    }
+    
 }
