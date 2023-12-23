@@ -18,6 +18,7 @@
 		81C160C52B285F1C00FADD0D /* SwiftUI_HandyStuffUI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160C42B285F1C00FADD0D /* SwiftUI_HandyStuffUI_Tests.swift */; };
 		81C160C72B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160C62B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift */; };
 		81C160CE2B2860AC00FADD0D /* UITestingExampleView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */; };
+		81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		81C160C62B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HandyStuffUI_TestsLaunchTests.swift; sourceTree = "<group>"; };
 		81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingExampleView_UITests.swift; sourceTree = "<group>"; };
 		81C160CF2B28635000FADD0D /* SwiftUI-HandyStuff.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftUI-HandyStuff.xctestplan"; sourceTree = "<group>"; };
+		81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		81A8BE0C2B2451C90082CBFE /* SwiftUI-HandyStuff */ = {
 			isa = PBXGroup;
 			children = (
+				81E67F652B36EF3000D2DB62 /* Basics */,
 				81619ED92B2741BF00C6CE35 /* PageTabViewExampleView.swift */,
 				81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */,
 				81A8BE0F2B2451C90082CBFE /* ContentView.swift */,
@@ -115,6 +118,14 @@
 				81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */,
 			);
 			path = "SwiftUI-HandyStuffUI_Tests";
+			sourceTree = "<group>";
+		};
+		81E67F652B36EF3000D2DB62 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */,
+			);
+			path = Basics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */,
+				81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */,
 				81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */,
 				81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */,
 				81619EDA2B2741BF00C6CE35 /* PageTabViewExampleView.swift in Sources */,
