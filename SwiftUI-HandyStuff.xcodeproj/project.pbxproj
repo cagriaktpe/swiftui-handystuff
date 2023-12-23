@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */; };
 		81619EDA2B2741BF00C6CE35 /* PageTabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED92B2741BF00C6CE35 /* PageTabViewExampleView.swift */; };
+		818884182B3712A900236EE4 /* ShapesExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818884172B3712A900236EE4 /* ShapesExampleView.swift */; };
 		81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */; };
 		81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0F2B2451C90082CBFE /* ContentView.swift */; };
 		81A8BE122B2451CB0082CBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE112B2451CB0082CBFE /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
 		81619ED92B2741BF00C6CE35 /* PageTabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabViewExampleView.swift; sourceTree = "<group>"; };
+		818884172B3712A900236EE4 /* ShapesExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesExampleView.swift; sourceTree = "<group>"; };
 		81A8BE0A2B2451C90082CBFE /* SwiftUI-HandyStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-HandyStuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HandyStuffApp.swift; sourceTree = "<group>"; };
 		81A8BE0F2B2451C90082CBFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */,
+				818884172B3712A900236EE4 /* ShapesExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */,
 				81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */,
 				81619EDA2B2741BF00C6CE35 /* PageTabViewExampleView.swift in Sources */,
+				818884182B3712A900236EE4 /* ShapesExampleView.swift in Sources */,
 				81C160BD2B284A7C00FADD0D /* UITestingExampleView.swift in Sources */,
 				81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */,
 			);
