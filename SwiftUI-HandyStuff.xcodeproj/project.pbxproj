@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8126F1D42B39CB3F005F5175 /* ColorsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8126F1D32B39CB3F005F5175 /* ColorsExampleView.swift */; };
 		81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */; };
 		81619EDA2B2741BF00C6CE35 /* PageTabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED92B2741BF00C6CE35 /* PageTabViewExampleView.swift */; };
 		818884182B3712A900236EE4 /* ShapesExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818884172B3712A900236EE4 /* ShapesExampleView.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8126F1D32B39CB3F005F5175 /* ColorsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExampleView.swift; sourceTree = "<group>"; };
 		81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
 		81619ED92B2741BF00C6CE35 /* PageTabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabViewExampleView.swift; sourceTree = "<group>"; };
 		818884172B3712A900236EE4 /* ShapesExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesExampleView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			children = (
 				81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */,
 				818884172B3712A900236EE4 /* ShapesExampleView.swift */,
+				8126F1D32B39CB3F005F5175 /* ColorsExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */,
+				8126F1D42B39CB3F005F5175 /* ColorsExampleView.swift in Sources */,
 				81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */,
 				81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */,
 				81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */,
