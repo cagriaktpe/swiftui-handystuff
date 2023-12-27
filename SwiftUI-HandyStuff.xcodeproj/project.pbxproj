@@ -19,6 +19,7 @@
 		81BE42382B3B136200B57EA2 /* GradientsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE42372B3B136200B57EA2 /* GradientsExampleView.swift */; };
 		81BE423A2B3B1EF400B57EA2 /* IconsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE42392B3B1EF400B57EA2 /* IconsExampleView.swift */; };
 		81BE423C2B3B27C700B57EA2 /* ImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE423B2B3B27C700B57EA2 /* ImageExampleView.swift */; };
+		81BE423E2B3C11A000B57EA2 /* FrameExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE423D2B3C11A000B57EA2 /* FrameExampleView.swift */; };
 		81C160BD2B284A7C00FADD0D /* UITestingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160BC2B284A7C00FADD0D /* UITestingExampleView.swift */; };
 		81C160C52B285F1C00FADD0D /* SwiftUI_HandyStuffUI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160C42B285F1C00FADD0D /* SwiftUI_HandyStuffUI_Tests.swift */; };
 		81C160C72B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160C62B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift */; };
@@ -50,6 +51,7 @@
 		81BE42372B3B136200B57EA2 /* GradientsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsExampleView.swift; sourceTree = "<group>"; };
 		81BE42392B3B1EF400B57EA2 /* IconsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsExampleView.swift; sourceTree = "<group>"; };
 		81BE423B2B3B27C700B57EA2 /* ImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExampleView.swift; sourceTree = "<group>"; };
+		81BE423D2B3C11A000B57EA2 /* FrameExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExampleView.swift; sourceTree = "<group>"; };
 		81C160BC2B284A7C00FADD0D /* UITestingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingExampleView.swift; sourceTree = "<group>"; };
 		81C160C22B285F1C00FADD0D /* SwiftUI-HandyStuffUI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-HandyStuffUI_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C160C42B285F1C00FADD0D /* SwiftUI_HandyStuffUI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HandyStuffUI_Tests.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				81BE42372B3B136200B57EA2 /* GradientsExampleView.swift */,
 				81BE42392B3B1EF400B57EA2 /* IconsExampleView.swift */,
 				81BE423B2B3B27C700B57EA2 /* ImageExampleView.swift */,
+				81BE423D2B3C11A000B57EA2 /* FrameExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				81C160BD2B284A7C00FADD0D /* UITestingExampleView.swift in Sources */,
 				81BE42382B3B136200B57EA2 /* GradientsExampleView.swift in Sources */,
 				81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */,
+				81BE423E2B3C11A000B57EA2 /* FrameExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
