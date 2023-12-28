@@ -32,6 +32,7 @@
 		81E31FA22B3D6F0C00B0F9BE /* ForEachExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA12B3D6F0C00B0F9BE /* ForEachExampleView.swift */; };
 		81E31FA42B3D80F500B0F9BE /* ScrollViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA32B3D80F500B0F9BE /* ScrollViewExampleView.swift */; };
 		81E31FA72B3D8AEF00B0F9BE /* GridExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA62B3D8AEF00B0F9BE /* GridExampleView.swift */; };
+		81E31FA92B3DA0AA00B0F9BE /* SafeAreaExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA82B3DA0AA00B0F9BE /* SafeAreaExampleView.swift */; };
 		81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		81E31FA12B3D6F0C00B0F9BE /* ForEachExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExampleView.swift; sourceTree = "<group>"; };
 		81E31FA32B3D80F500B0F9BE /* ScrollViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExampleView.swift; sourceTree = "<group>"; };
 		81E31FA62B3D8AEF00B0F9BE /* GridExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridExampleView.swift; sourceTree = "<group>"; };
+		81E31FA82B3DA0AA00B0F9BE /* SafeAreaExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExampleView.swift; sourceTree = "<group>"; };
 		81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,6 +168,7 @@
 				81E31FA12B3D6F0C00B0F9BE /* ForEachExampleView.swift */,
 				81E31FA32B3D80F500B0F9BE /* ScrollViewExampleView.swift */,
 				81E31FA62B3D8AEF00B0F9BE /* GridExampleView.swift */,
+				81E31FA82B3DA0AA00B0F9BE /* SafeAreaExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				81E31FA42B3D80F500B0F9BE /* ScrollViewExampleView.swift in Sources */,
 				81C160BD2B284A7C00FADD0D /* UITestingExampleView.swift in Sources */,
 				81BE42382B3B136200B57EA2 /* GradientsExampleView.swift in Sources */,
+				81E31FA92B3DA0AA00B0F9BE /* SafeAreaExampleView.swift in Sources */,
 				81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */,
 				81BE423E2B3C11A000B57EA2 /* FrameExampleView.swift in Sources */,
 			);
