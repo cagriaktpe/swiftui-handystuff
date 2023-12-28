@@ -28,6 +28,7 @@
 		81C160C72B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160C62B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift */; };
 		81C160CE2B2860AC00FADD0D /* UITestingExampleView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */; };
 		81E31F9E2B3D5A5D00B0F9BE /* SpacerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31F9D2B3D5A5D00B0F9BE /* SpacerExampleView.swift */; };
+		81E31FA02B3D637900B0F9BE /* InitializerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31F9F2B3D637900B0F9BE /* InitializerExampleView.swift */; };
 		81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingExampleView_UITests.swift; sourceTree = "<group>"; };
 		81C160CF2B28635000FADD0D /* SwiftUI-HandyStuff.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftUI-HandyStuff.xctestplan"; sourceTree = "<group>"; };
 		81E31F9D2B3D5A5D00B0F9BE /* SpacerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleView.swift; sourceTree = "<group>"; };
+		81E31F9F2B3D637900B0F9BE /* InitializerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerExampleView.swift; sourceTree = "<group>"; };
 		81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 				8183519B2B3C48110011095C /* StacksExampleView.swift */,
 				8183519D2B3C6A620011095C /* PaddingAndSpacerExampleView.swift */,
 				81E31F9D2B3D5A5D00B0F9BE /* SpacerExampleView.swift */,
+				81E31F9F2B3D637900B0F9BE /* InitializerExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				8183519E2B3C6A620011095C /* PaddingAndSpacerExampleView.swift in Sources */,
 				8183519C2B3C48110011095C /* StacksExampleView.swift in Sources */,
 				81BE42402B3C1E0F00B57EA2 /* BackgroundAndOverlayExampleView.swift in Sources */,
+				81E31FA02B3D637900B0F9BE /* InitializerExampleView.swift in Sources */,
 				818884182B3712A900236EE4 /* ShapesExampleView.swift in Sources */,
 				81C160BD2B284A7C00FADD0D /* UITestingExampleView.swift in Sources */,
 				81BE42382B3B136200B57EA2 /* GradientsExampleView.swift in Sources */,
