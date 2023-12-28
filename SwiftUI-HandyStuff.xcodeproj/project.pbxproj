@@ -30,6 +30,7 @@
 		81E31F9E2B3D5A5D00B0F9BE /* SpacerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31F9D2B3D5A5D00B0F9BE /* SpacerExampleView.swift */; };
 		81E31FA02B3D637900B0F9BE /* InitializerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31F9F2B3D637900B0F9BE /* InitializerExampleView.swift */; };
 		81E31FA22B3D6F0C00B0F9BE /* ForEachExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA12B3D6F0C00B0F9BE /* ForEachExampleView.swift */; };
+		81E31FA42B3D80F500B0F9BE /* ScrollViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA32B3D80F500B0F9BE /* ScrollViewExampleView.swift */; };
 		81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		81E31F9D2B3D5A5D00B0F9BE /* SpacerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleView.swift; sourceTree = "<group>"; };
 		81E31F9F2B3D637900B0F9BE /* InitializerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerExampleView.swift; sourceTree = "<group>"; };
 		81E31FA12B3D6F0C00B0F9BE /* ForEachExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExampleView.swift; sourceTree = "<group>"; };
+		81E31FA32B3D80F500B0F9BE /* ScrollViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExampleView.swift; sourceTree = "<group>"; };
 		81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +162,7 @@
 				81E31F9D2B3D5A5D00B0F9BE /* SpacerExampleView.swift */,
 				81E31F9F2B3D637900B0F9BE /* InitializerExampleView.swift */,
 				81E31FA12B3D6F0C00B0F9BE /* ForEachExampleView.swift */,
+				81E31FA32B3D80F500B0F9BE /* ScrollViewExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				81BE42402B3C1E0F00B57EA2 /* BackgroundAndOverlayExampleView.swift in Sources */,
 				81E31FA02B3D637900B0F9BE /* InitializerExampleView.swift in Sources */,
 				818884182B3712A900236EE4 /* ShapesExampleView.swift in Sources */,
+				81E31FA42B3D80F500B0F9BE /* ScrollViewExampleView.swift in Sources */,
 				81C160BD2B284A7C00FADD0D /* UITestingExampleView.swift in Sources */,
 				81BE42382B3B136200B57EA2 /* GradientsExampleView.swift in Sources */,
 				81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */,
