@@ -33,6 +33,7 @@
 		81C160C52B285F1C00FADD0D /* SwiftUI_HandyStuffUI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160C42B285F1C00FADD0D /* SwiftUI_HandyStuffUI_Tests.swift */; };
 		81C160C72B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160C62B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift */; };
 		81C160CE2B2860AC00FADD0D /* UITestingExampleView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */; };
+		81D55E1F2B40034300A36A98 /* TernaryExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D55E1E2B40034300A36A98 /* TernaryExampleView.swift */; };
 		81E31F9E2B3D5A5D00B0F9BE /* SpacerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31F9D2B3D5A5D00B0F9BE /* SpacerExampleView.swift */; };
 		81E31FA02B3D637900B0F9BE /* InitializerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31F9F2B3D637900B0F9BE /* InitializerExampleView.swift */; };
 		81E31FA22B3D6F0C00B0F9BE /* ForEachExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA12B3D6F0C00B0F9BE /* ForEachExampleView.swift */; };
@@ -82,6 +83,7 @@
 		81C160C62B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HandyStuffUI_TestsLaunchTests.swift; sourceTree = "<group>"; };
 		81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingExampleView_UITests.swift; sourceTree = "<group>"; };
 		81C160CF2B28635000FADD0D /* SwiftUI-HandyStuff.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftUI-HandyStuff.xctestplan"; sourceTree = "<group>"; };
+		81D55E1E2B40034300A36A98 /* TernaryExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryExampleView.swift; sourceTree = "<group>"; };
 		81E31F9D2B3D5A5D00B0F9BE /* SpacerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleView.swift; sourceTree = "<group>"; };
 		81E31F9F2B3D637900B0F9BE /* InitializerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerExampleView.swift; sourceTree = "<group>"; };
 		81E31FA12B3D6F0C00B0F9BE /* ForEachExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExampleView.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				81882BC82B3EE35200B4B5DB /* ExtractSubviewExampleView.swift */,
 				81882BCD2B3F092600B4B5DB /* BindingExampleView.swift */,
 				81882BCF2B3F10A100B4B5DB /* ConditionalExampleView.swift */,
+				81D55E1E2B40034300A36A98 /* TernaryExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */,
 				81619EDA2B2741BF00C6CE35 /* PageTabViewExampleView.swift in Sources */,
 				8183519E2B3C6A620011095C /* PaddingAndSpacerExampleView.swift in Sources */,
+				81D55E1F2B40034300A36A98 /* TernaryExampleView.swift in Sources */,
 				8183519C2B3C48110011095C /* StacksExampleView.swift in Sources */,
 				81BE42402B3C1E0F00B57EA2 /* BackgroundAndOverlayExampleView.swift in Sources */,
 				81E31FA02B3D637900B0F9BE /* InitializerExampleView.swift in Sources */,
