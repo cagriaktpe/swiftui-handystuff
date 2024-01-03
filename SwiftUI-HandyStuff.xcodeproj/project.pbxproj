@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8126F1D42B39CB3F005F5175 /* ColorsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8126F1D32B39CB3F005F5175 /* ColorsExampleView.swift */; };
+		8139CDD42B45782A0054E88B /* ConfirmationDialogExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8139CDD32B45782A0054E88B /* ConfirmationDialogExampleView.swift */; };
 		8155AAB42B441425005A9BBB /* ListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155AAB32B441425005A9BBB /* ListExampleView.swift */; };
 		8155D9D02B4559E500B3700E /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155D9CF2B4559E500B3700E /* AlertExampleView.swift */; };
 		81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */; };
@@ -63,6 +64,7 @@
 
 /* Begin PBXFileReference section */
 		8126F1D32B39CB3F005F5175 /* ColorsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExampleView.swift; sourceTree = "<group>"; };
+		8139CDD32B45782A0054E88B /* ConfirmationDialogExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogExampleView.swift; sourceTree = "<group>"; };
 		8155AAB32B441425005A9BBB /* ListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
 		8155D9CF2B4559E500B3700E /* AlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleView.swift; sourceTree = "<group>"; };
 		81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				81D55E2C2B40519100A36A98 /* NavigationViewExampleView.swift */,
 				8155AAB32B441425005A9BBB /* ListExampleView.swift */,
 				8155D9CF2B4559E500B3700E /* AlertExampleView.swift */,
+				8139CDD32B45782A0054E88B /* ConfirmationDialogExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				81BE423A2B3B1EF400B57EA2 /* IconsExampleView.swift in Sources */,
 				81D55E2D2B40519100A36A98 /* NavigationViewExampleView.swift in Sources */,
 				81D55E2B2B4047C900A36A98 /* PopoverExampleView.swift in Sources */,
+				8139CDD42B45782A0054E88B /* ConfirmationDialogExampleView.swift in Sources */,
 				81E31F9E2B3D5A5D00B0F9BE /* SpacerExampleView.swift in Sources */,
 				81E31FA22B3D6F0C00B0F9BE /* ForEachExampleView.swift in Sources */,
 				81882BD02B3F10A100B4B5DB /* ConditionalExampleView.swift in Sources */,
