@@ -28,7 +28,7 @@ struct ContextMenuExampleView: View {
             backgroundColor
                 .clipShape(RoundedRectangle(cornerRadius: 30))
         )
-        .contextMenu(ContextMenu(menuItems: {
+        .contextMenu {
             
             Button {
                 backgroundColor = .blue
@@ -51,7 +51,16 @@ struct ContextMenuExampleView: View {
                     Image(systemName: "heart.fill")
                 }
             }
-        }))
+        } preview: {
+            RoundedRectangle(cornerRadius: 10)
+                .frame(width: 300, height: 300)
+                .foregroundColor(.red)
+                .overlay(
+                    Text("I AM A PREVIEW")
+                        .font(.title)
+                        .foregroundColor(.white)
+                )
+        }
     }
 }
 
