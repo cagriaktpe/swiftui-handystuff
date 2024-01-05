@@ -12,6 +12,7 @@
 		813F575C2B4841160020D00C /* ColorPickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F575B2B4841160020D00C /* ColorPickerExampleView.swift */; };
 		813F575E2B4843F50020D00C /* DatePickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F575D2B4843F50020D00C /* DatePickerExampleView.swift */; };
 		813F57602B484B6E0020D00C /* StepperExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F575F2B484B6E0020D00C /* StepperExampleView.swift */; };
+		813F57622B484EEF0020D00C /* SliderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F57612B484EEF0020D00C /* SliderExampleView.swift */; };
 		8155AAB42B441425005A9BBB /* ListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155AAB32B441425005A9BBB /* ListExampleView.swift */; };
 		8155D9D02B4559E500B3700E /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155D9CF2B4559E500B3700E /* AlertExampleView.swift */; };
 		81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */; };
@@ -76,6 +77,7 @@
 		813F575B2B4841160020D00C /* ColorPickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerExampleView.swift; sourceTree = "<group>"; };
 		813F575D2B4843F50020D00C /* DatePickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExampleView.swift; sourceTree = "<group>"; };
 		813F575F2B484B6E0020D00C /* StepperExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleView.swift; sourceTree = "<group>"; };
+		813F57612B484EEF0020D00C /* SliderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExampleView.swift; sourceTree = "<group>"; };
 		8155AAB32B441425005A9BBB /* ListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
 		8155D9CF2B4559E500B3700E /* AlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleView.swift; sourceTree = "<group>"; };
 		81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				813F575B2B4841160020D00C /* ColorPickerExampleView.swift */,
 				813F575D2B4843F50020D00C /* DatePickerExampleView.swift */,
 				813F575F2B484B6E0020D00C /* StepperExampleView.swift */,
+				813F57612B484EEF0020D00C /* SliderExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				81882BC92B3EE35200B4B5DB /* ExtractSubviewExampleView.swift in Sources */,
 				81D55E212B40090700A36A98 /* AnimationExampleView.swift in Sources */,
 				81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */,
+				813F57622B484EEF0020D00C /* SliderExampleView.swift in Sources */,
 				81BE423A2B3B1EF400B57EA2 /* IconsExampleView.swift in Sources */,
 				81B8B2592B46A79F007B3882 /* TextFieldExampleView.swift in Sources */,
 				81D55E2D2B40519100A36A98 /* NavigationViewExampleView.swift in Sources */,
