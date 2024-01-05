@@ -11,6 +11,7 @@
 		8139CDD42B45782A0054E88B /* ConfirmationDialogExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8139CDD32B45782A0054E88B /* ConfirmationDialogExampleView.swift */; };
 		813F575C2B4841160020D00C /* ColorPickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F575B2B4841160020D00C /* ColorPickerExampleView.swift */; };
 		813F575E2B4843F50020D00C /* DatePickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F575D2B4843F50020D00C /* DatePickerExampleView.swift */; };
+		813F57602B484B6E0020D00C /* StepperExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F575F2B484B6E0020D00C /* StepperExampleView.swift */; };
 		8155AAB42B441425005A9BBB /* ListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155AAB32B441425005A9BBB /* ListExampleView.swift */; };
 		8155D9D02B4559E500B3700E /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155D9CF2B4559E500B3700E /* AlertExampleView.swift */; };
 		81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */; };
@@ -74,6 +75,7 @@
 		8139CDD32B45782A0054E88B /* ConfirmationDialogExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogExampleView.swift; sourceTree = "<group>"; };
 		813F575B2B4841160020D00C /* ColorPickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerExampleView.swift; sourceTree = "<group>"; };
 		813F575D2B4843F50020D00C /* DatePickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExampleView.swift; sourceTree = "<group>"; };
+		813F575F2B484B6E0020D00C /* StepperExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleView.swift; sourceTree = "<group>"; };
 		8155AAB32B441425005A9BBB /* ListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
 		8155D9CF2B4559E500B3700E /* AlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleView.swift; sourceTree = "<group>"; };
 		81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 				81B8B25E2B47DA9E007B3882 /* PickerExampleView.swift */,
 				813F575B2B4841160020D00C /* ColorPickerExampleView.swift */,
 				813F575D2B4843F50020D00C /* DatePickerExampleView.swift */,
+				813F575F2B484B6E0020D00C /* StepperExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				81BE423C2B3B27C700B57EA2 /* ImageExampleView.swift in Sources */,
 				81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */,
 				81882BC32B3EC98F00B4B5DB /* ButtonExampleView.swift in Sources */,
+				813F57602B484B6E0020D00C /* StepperExampleView.swift in Sources */,
 				81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */,
 				81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */,
 				81619EDA2B2741BF00C6CE35 /* PageTabViewExampleView.swift in Sources */,
