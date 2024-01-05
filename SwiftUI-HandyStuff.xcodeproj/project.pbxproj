@@ -10,6 +10,7 @@
 		8126F1D42B39CB3F005F5175 /* ColorsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8126F1D32B39CB3F005F5175 /* ColorsExampleView.swift */; };
 		8139CDD42B45782A0054E88B /* ConfirmationDialogExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8139CDD32B45782A0054E88B /* ConfirmationDialogExampleView.swift */; };
 		813F575C2B4841160020D00C /* ColorPickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F575B2B4841160020D00C /* ColorPickerExampleView.swift */; };
+		813F575E2B4843F50020D00C /* DatePickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F575D2B4843F50020D00C /* DatePickerExampleView.swift */; };
 		8155AAB42B441425005A9BBB /* ListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155AAB32B441425005A9BBB /* ListExampleView.swift */; };
 		8155D9D02B4559E500B3700E /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155D9CF2B4559E500B3700E /* AlertExampleView.swift */; };
 		81619ED82B273CDF00C6CE35 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */; };
@@ -72,6 +73,7 @@
 		8126F1D32B39CB3F005F5175 /* ColorsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExampleView.swift; sourceTree = "<group>"; };
 		8139CDD32B45782A0054E88B /* ConfirmationDialogExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogExampleView.swift; sourceTree = "<group>"; };
 		813F575B2B4841160020D00C /* ColorPickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerExampleView.swift; sourceTree = "<group>"; };
+		813F575D2B4843F50020D00C /* DatePickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExampleView.swift; sourceTree = "<group>"; };
 		8155AAB32B441425005A9BBB /* ListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
 		8155D9CF2B4559E500B3700E /* AlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleView.swift; sourceTree = "<group>"; };
 		81619ED72B273CDF00C6CE35 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				81B8B25C2B46EE9A007B3882 /* ToggleExampleView.swift */,
 				81B8B25E2B47DA9E007B3882 /* PickerExampleView.swift */,
 				813F575B2B4841160020D00C /* ColorPickerExampleView.swift */,
+				813F575D2B4843F50020D00C /* DatePickerExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				81D55E292B40351000A36A98 /* SheetsExampleView.swift in Sources */,
 				8183519C2B3C48110011095C /* StacksExampleView.swift in Sources */,
 				81B8B25F2B47DA9E007B3882 /* PickerExampleView.swift in Sources */,
+				813F575E2B4843F50020D00C /* DatePickerExampleView.swift in Sources */,
 				81BE42402B3C1E0F00B57EA2 /* BackgroundAndOverlayExampleView.swift in Sources */,
 				81E31FA02B3D637900B0F9BE /* InitializerExampleView.swift in Sources */,
 				818884182B3712A900236EE4 /* ShapesExampleView.swift in Sources */,
