@@ -28,6 +28,7 @@
 		81882BD02B3F10A100B4B5DB /* ConditionalExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81882BCF2B3F10A100B4B5DB /* ConditionalExampleView.swift */; };
 		818884182B3712A900236EE4 /* ShapesExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818884172B3712A900236EE4 /* ShapesExampleView.swift */; };
 		8188C7642B498C99003A1BCE /* IfLetGuardExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8188C7632B498C99003A1BCE /* IfLetGuardExampleView.swift */; };
+		8188C7662B499482003A1BCE /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8188C7652B499482003A1BCE /* TapGestureView.swift */; };
 		81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */; };
 		81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0F2B2451C90082CBFE /* ContentView.swift */; };
 		81A8BE122B2451CB0082CBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE112B2451CB0082CBFE /* Assets.xcassets */; };
@@ -97,6 +98,7 @@
 		81882BCF2B3F10A100B4B5DB /* ConditionalExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalExampleView.swift; sourceTree = "<group>"; };
 		818884172B3712A900236EE4 /* ShapesExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesExampleView.swift; sourceTree = "<group>"; };
 		8188C7632B498C99003A1BCE /* IfLetGuardExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardExampleView.swift; sourceTree = "<group>"; };
+		8188C7652B499482003A1BCE /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
 		81A8BE0A2B2451C90082CBFE /* SwiftUI-HandyStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-HandyStuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HandyStuffApp.swift; sourceTree = "<group>"; };
 		81A8BE0F2B2451C90082CBFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 				81C769DC2B495DD900F34C97 /* DocumentationExampleView.swift */,
 				81DE3B7B2B497B4500CC7DA9 /* OnAppearExampleView.swift */,
 				8188C7632B498C99003A1BCE /* IfLetGuardExampleView.swift */,
+				8188C7652B499482003A1BCE /* TapGestureView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				81BE423E2B3C11A000B57EA2 /* FrameExampleView.swift in Sources */,
 				81B8B25D2B46EE9A007B3882 /* ToggleExampleView.swift in Sources */,
 				8155D9D02B4559E500B3700E /* AlertExampleView.swift in Sources */,
+				8188C7662B499482003A1BCE /* TapGestureView.swift in Sources */,
 				8155AAB42B441425005A9BBB /* ListExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
