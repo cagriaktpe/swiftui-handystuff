@@ -65,6 +65,7 @@
 		81E31FA92B3DA0AA00B0F9BE /* SafeAreaExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA82B3DA0AA00B0F9BE /* SafeAreaExampleView.swift */; };
 		81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */; };
 		81FF1D462B4BE73F00B80EED /* ModelExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF1D452B4BE73F00B80EED /* ModelExampleView.swift */; };
+		81FF1D482B4BF45500B80EED /* ViewModelExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF1D472B4BF45500B80EED /* ViewModelExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		81E31FA82B3DA0AA00B0F9BE /* SafeAreaExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExampleView.swift; sourceTree = "<group>"; };
 		81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		81FF1D452B4BE73F00B80EED /* ModelExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExampleView.swift; sourceTree = "<group>"; };
+		81FF1D472B4BF45500B80EED /* ViewModelExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 				8188C7632B498C99003A1BCE /* IfLetGuardExampleView.swift */,
 				8188C7652B499482003A1BCE /* TapGestureView.swift */,
 				81FF1D452B4BE73F00B80EED /* ModelExampleView.swift */,
+				81FF1D472B4BF45500B80EED /* ViewModelExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				81B8B25D2B46EE9A007B3882 /* ToggleExampleView.swift in Sources */,
 				8155D9D02B4559E500B3700E /* AlertExampleView.swift in Sources */,
 				8188C7662B499482003A1BCE /* TapGestureView.swift in Sources */,
+				81FF1D482B4BF45500B80EED /* ViewModelExampleView.swift in Sources */,
 				8155AAB42B441425005A9BBB /* ListExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
