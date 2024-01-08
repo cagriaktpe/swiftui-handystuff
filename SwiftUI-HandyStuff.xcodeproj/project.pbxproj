@@ -30,6 +30,7 @@
 		818884182B3712A900236EE4 /* ShapesExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818884172B3712A900236EE4 /* ShapesExampleView.swift */; };
 		8188C7642B498C99003A1BCE /* IfLetGuardExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8188C7632B498C99003A1BCE /* IfLetGuardExampleView.swift */; };
 		8188C7662B499482003A1BCE /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8188C7652B499482003A1BCE /* TapGestureView.swift */; };
+		819A924C2B4C44180082595C /* AppStorageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A924B2B4C44180082595C /* AppStorageExampleView.swift */; };
 		81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */; };
 		81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0F2B2451C90082CBFE /* ContentView.swift */; };
 		81A8BE122B2451CB0082CBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE112B2451CB0082CBFE /* Assets.xcassets */; };
@@ -103,6 +104,7 @@
 		818884172B3712A900236EE4 /* ShapesExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesExampleView.swift; sourceTree = "<group>"; };
 		8188C7632B498C99003A1BCE /* IfLetGuardExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardExampleView.swift; sourceTree = "<group>"; };
 		8188C7652B499482003A1BCE /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		819A924B2B4C44180082595C /* AppStorageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageExampleView.swift; sourceTree = "<group>"; };
 		81A8BE0A2B2451C90082CBFE /* SwiftUI-HandyStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-HandyStuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HandyStuffApp.swift; sourceTree = "<group>"; };
 		81A8BE0F2B2451C90082CBFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				81FF1D452B4BE73F00B80EED /* ModelExampleView.swift */,
 				81FF1D472B4BF45500B80EED /* ViewModelExampleView.swift */,
 				811708FF2B4C2C590087D9A8 /* EnvironmentObjectExampleView.swift */,
+				819A924B2B4C44180082595C /* AppStorageExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				810BBAD22B4931FD00CEFEC5 /* TabViewExampleView.swift in Sources */,
 				81B8B25F2B47DA9E007B3882 /* PickerExampleView.swift in Sources */,
 				813F575E2B4843F50020D00C /* DatePickerExampleView.swift in Sources */,
+				819A924C2B4C44180082595C /* AppStorageExampleView.swift in Sources */,
 				81BE42402B3C1E0F00B57EA2 /* BackgroundAndOverlayExampleView.swift in Sources */,
 				81E31FA02B3D637900B0F9BE /* InitializerExampleView.swift in Sources */,
 				818884182B3712A900236EE4 /* ShapesExampleView.swift in Sources */,
