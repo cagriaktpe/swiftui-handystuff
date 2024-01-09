@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810727CB2B4D287B002957D1 /* IntroExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810727CA2B4D287B002957D1 /* IntroExampleView.swift */; };
+		810727CD2B4D2AEF002957D1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810727CC2B4D2AEF002957D1 /* OnboardingView.swift */; };
+		810727CF2B4D940F002957D1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810727CE2B4D940F002957D1 /* ProfileView.swift */; };
 		810BBAD22B4931FD00CEFEC5 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810BBAD12B4931FD00CEFEC5 /* TabViewExampleView.swift */; };
 		810BBAD42B493C2800CEFEC5 /* DarkModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810BBAD32B493C2800CEFEC5 /* DarkModeExampleView.swift */; };
 		811709002B4C2C590087D9A8 /* EnvironmentObjectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811708FF2B4C2C590087D9A8 /* EnvironmentObjectExampleView.swift */; };
@@ -81,6 +84,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810727CA2B4D287B002957D1 /* IntroExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroExampleView.swift; sourceTree = "<group>"; };
+		810727CC2B4D2AEF002957D1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		810727CE2B4D940F002957D1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		810BBAD12B4931FD00CEFEC5 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
 		810BBAD32B493C2800CEFEC5 /* DarkModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeExampleView.swift; sourceTree = "<group>"; };
 		811708FF2B4C2C590087D9A8 /* EnvironmentObjectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExampleView.swift; sourceTree = "<group>"; };
@@ -165,6 +171,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		810727C92B4D2856002957D1 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				810727CA2B4D287B002957D1 /* IntroExampleView.swift */,
+				810727CC2B4D2AEF002957D1 /* OnboardingView.swift */,
+				810727CE2B4D940F002957D1 /* ProfileView.swift */,
+			);
+			path = OnboardingViews;
+			sourceTree = "<group>";
+		};
 		81A8BE012B2451C90082CBFE = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +236,7 @@
 		81E67F652B36EF3000D2DB62 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
+				810727C92B4D2856002957D1 /* OnboardingViews */,
 				81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */,
 				818884172B3712A900236EE4 /* ShapesExampleView.swift */,
 				8126F1D32B39CB3F005F5175 /* ColorsExampleView.swift */,
@@ -391,6 +408,7 @@
 				8139CDD42B45782A0054E88B /* ConfirmationDialogExampleView.swift in Sources */,
 				81E31F9E2B3D5A5D00B0F9BE /* SpacerExampleView.swift in Sources */,
 				81E31FA22B3D6F0C00B0F9BE /* ForEachExampleView.swift in Sources */,
+				810727CF2B4D940F002957D1 /* ProfileView.swift in Sources */,
 				81882BD02B3F10A100B4B5DB /* ConditionalExampleView.swift in Sources */,
 				81D55E252B401B5400A36A98 /* TransitionExampleView.swift in Sources */,
 				81D55E232B4010F800A36A98 /* AnimationTimingExampleView.swift in Sources */,
@@ -404,6 +422,7 @@
 				81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */,
 				81619EDA2B2741BF00C6CE35 /* PageTabViewExampleView.swift in Sources */,
 				8183519E2B3C6A620011095C /* PaddingAndSpacerExampleView.swift in Sources */,
+				810727CD2B4D2AEF002957D1 /* OnboardingView.swift in Sources */,
 				81D55E1F2B40034300A36A98 /* TernaryExampleView.swift in Sources */,
 				81D55E292B40351000A36A98 /* SheetsExampleView.swift in Sources */,
 				8183519C2B3C48110011095C /* StacksExampleView.swift in Sources */,
@@ -426,6 +445,7 @@
 				81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */,
 				81882BCE2B3F092600B4B5DB /* BindingExampleView.swift in Sources */,
 				81BE423E2B3C11A000B57EA2 /* FrameExampleView.swift in Sources */,
+				810727CB2B4D287B002957D1 /* IntroExampleView.swift in Sources */,
 				81B8B25D2B46EE9A007B3882 /* ToggleExampleView.swift in Sources */,
 				8155D9D02B4559E500B3700E /* AlertExampleView.swift in Sources */,
 				8188C7662B499482003A1BCE /* TapGestureView.swift in Sources */,
