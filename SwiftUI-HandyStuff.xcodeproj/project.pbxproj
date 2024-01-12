@@ -34,6 +34,7 @@
 		8188C7642B498C99003A1BCE /* IfLetGuardExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8188C7632B498C99003A1BCE /* IfLetGuardExampleView.swift */; };
 		8188C7662B499482003A1BCE /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8188C7652B499482003A1BCE /* TapGestureView.swift */; };
 		819A924C2B4C44180082595C /* AppStorageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A924B2B4C44180082595C /* AppStorageExampleView.swift */; };
+		81A0D4D02B514494001B5996 /* AsyncImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0D4CF2B514494001B5996 /* AsyncImageExampleView.swift */; };
 		81A8BE0E2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */; };
 		81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0F2B2451C90082CBFE /* ContentView.swift */; };
 		81A8BE122B2451CB0082CBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE112B2451CB0082CBFE /* Assets.xcassets */; };
@@ -111,6 +112,7 @@
 		8188C7632B498C99003A1BCE /* IfLetGuardExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardExampleView.swift; sourceTree = "<group>"; };
 		8188C7652B499482003A1BCE /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
 		819A924B2B4C44180082595C /* AppStorageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageExampleView.swift; sourceTree = "<group>"; };
+		81A0D4CF2B514494001B5996 /* AsyncImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageExampleView.swift; sourceTree = "<group>"; };
 		81A8BE0A2B2451C90082CBFE /* SwiftUI-HandyStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-HandyStuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A8BE0D2B2451C90082CBFE /* SwiftUI_HandyStuffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HandyStuffApp.swift; sourceTree = "<group>"; };
 		81A8BE0F2B2451C90082CBFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				81FF1D472B4BF45500B80EED /* ViewModelExampleView.swift */,
 				811708FF2B4C2C590087D9A8 /* EnvironmentObjectExampleView.swift */,
 				819A924B2B4C44180082595C /* AppStorageExampleView.swift */,
+				81A0D4CF2B514494001B5996 /* AsyncImageExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				81E31FA22B3D6F0C00B0F9BE /* ForEachExampleView.swift in Sources */,
 				810727CF2B4D940F002957D1 /* ProfileView.swift in Sources */,
 				81882BD02B3F10A100B4B5DB /* ConditionalExampleView.swift in Sources */,
+				81A0D4D02B514494001B5996 /* AsyncImageExampleView.swift in Sources */,
 				81D55E252B401B5400A36A98 /* TransitionExampleView.swift in Sources */,
 				81D55E232B4010F800A36A98 /* AnimationTimingExampleView.swift in Sources */,
 				8126F1D42B39CB3F005F5175 /* ColorsExampleView.swift in Sources */,
