@@ -23,6 +23,7 @@
 		8155D9D02B4559E500B3700E /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155D9CF2B4559E500B3700E /* AlertExampleView.swift */; };
 		815C86CE2B51822A00720D81 /* BackgroundMaterialsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C86CD2B51822A00720D81 /* BackgroundMaterialsExampleView.swift */; };
 		815C86D02B5184AC00720D81 /* TextSelectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C86CF2B5184AC00720D81 /* TextSelectionExampleView.swift */; };
+		815C86D22B51898700720D81 /* ButtonStylesExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C86D12B51898700720D81 /* ButtonStylesExampleView.swift */; };
 		81619EDA2B2741BF00C6CE35 /* PageTabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED92B2741BF00C6CE35 /* PageTabViewExampleView.swift */; };
 		8183519C2B3C48110011095C /* StacksExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8183519B2B3C48110011095C /* StacksExampleView.swift */; };
 		8183519E2B3C6A620011095C /* PaddingAndSpacerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8183519D2B3C6A620011095C /* PaddingAndSpacerExampleView.swift */; };
@@ -103,6 +104,7 @@
 		8155D9CF2B4559E500B3700E /* AlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleView.swift; sourceTree = "<group>"; };
 		815C86CD2B51822A00720D81 /* BackgroundMaterialsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsExampleView.swift; sourceTree = "<group>"; };
 		815C86CF2B5184AC00720D81 /* TextSelectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionExampleView.swift; sourceTree = "<group>"; };
+		815C86D12B51898700720D81 /* ButtonStylesExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesExampleView.swift; sourceTree = "<group>"; };
 		81619ED92B2741BF00C6CE35 /* PageTabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabViewExampleView.swift; sourceTree = "<group>"; };
 		8183519B2B3C48110011095C /* StacksExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksExampleView.swift; sourceTree = "<group>"; };
 		8183519D2B3C6A620011095C /* PaddingAndSpacerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerExampleView.swift; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				81A0D4CF2B514494001B5996 /* AsyncImageExampleView.swift */,
 				815C86CD2B51822A00720D81 /* BackgroundMaterialsExampleView.swift */,
 				815C86CF2B5184AC00720D81 /* TextSelectionExampleView.swift */,
+				815C86D12B51898700720D81 /* ButtonStylesExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				81DE3B7C2B497B4500CC7DA9 /* OnAppearExampleView.swift in Sources */,
 				81882BC92B3EE35200B4B5DB /* ExtractSubviewExampleView.swift in Sources */,
 				810BBAD42B493C2800CEFEC5 /* DarkModeExampleView.swift in Sources */,
+				815C86D22B51898700720D81 /* ButtonStylesExampleView.swift in Sources */,
 				81D55E212B40090700A36A98 /* AnimationExampleView.swift in Sources */,
 				8188C7642B498C99003A1BCE /* IfLetGuardExampleView.swift in Sources */,
 				815C86CE2B51822A00720D81 /* BackgroundMaterialsExampleView.swift in Sources */,
