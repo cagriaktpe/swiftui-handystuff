@@ -24,6 +24,7 @@
 		815C86CE2B51822A00720D81 /* BackgroundMaterialsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C86CD2B51822A00720D81 /* BackgroundMaterialsExampleView.swift */; };
 		815C86D02B5184AC00720D81 /* TextSelectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C86CF2B5184AC00720D81 /* TextSelectionExampleView.swift */; };
 		815C86D22B51898700720D81 /* ButtonStylesExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C86D12B51898700720D81 /* ButtonStylesExampleView.swift */; };
+		815CD0732B52BB0F00BD232F /* FocusStateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CD0722B52BB0F00BD232F /* FocusStateExampleView.swift */; };
 		81619EDA2B2741BF00C6CE35 /* PageTabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81619ED92B2741BF00C6CE35 /* PageTabViewExampleView.swift */; };
 		8183519C2B3C48110011095C /* StacksExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8183519B2B3C48110011095C /* StacksExampleView.swift */; };
 		8183519E2B3C6A620011095C /* PaddingAndSpacerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8183519D2B3C6A620011095C /* PaddingAndSpacerExampleView.swift */; };
@@ -107,6 +108,7 @@
 		815C86CD2B51822A00720D81 /* BackgroundMaterialsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsExampleView.swift; sourceTree = "<group>"; };
 		815C86CF2B5184AC00720D81 /* TextSelectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionExampleView.swift; sourceTree = "<group>"; };
 		815C86D12B51898700720D81 /* ButtonStylesExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesExampleView.swift; sourceTree = "<group>"; };
+		815CD0722B52BB0F00BD232F /* FocusStateExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateExampleView.swift; sourceTree = "<group>"; };
 		81619ED92B2741BF00C6CE35 /* PageTabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabViewExampleView.swift; sourceTree = "<group>"; };
 		8183519B2B3C48110011095C /* StacksExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksExampleView.swift; sourceTree = "<group>"; };
 		8183519D2B3C6A620011095C /* PaddingAndSpacerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerExampleView.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				815C86D12B51898700720D81 /* ButtonStylesExampleView.swift */,
 				81D7A34D2B528D4E004F76EE /* ListSwipeActionsExampleView.swift */,
 				81D7A34F2B5298CC004F76EE /* BadgesExampleView.swift */,
+				815CD0722B52BB0F00BD232F /* FocusStateExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815CD0732B52BB0F00BD232F /* FocusStateExampleView.swift in Sources */,
 				81E31FA72B3D8AEF00B0F9BE /* GridExampleView.swift in Sources */,
 				81DE3B7C2B497B4500CC7DA9 /* OnAppearExampleView.swift in Sources */,
 				81882BC92B3EE35200B4B5DB /* ExtractSubviewExampleView.swift in Sources */,
