@@ -12,6 +12,7 @@
 		810727CF2B4D940F002957D1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810727CE2B4D940F002957D1 /* ProfileView.swift */; };
 		810BBAD22B4931FD00CEFEC5 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810BBAD12B4931FD00CEFEC5 /* TabViewExampleView.swift */; };
 		810BBAD42B493C2800CEFEC5 /* DarkModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810BBAD32B493C2800CEFEC5 /* DarkModeExampleView.swift */; };
+		8115FE842B5689CC006C8350 /* ToolbarExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115FE832B5689CC006C8350 /* ToolbarExampleView.swift */; };
 		811709002B4C2C590087D9A8 /* EnvironmentObjectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811708FF2B4C2C590087D9A8 /* EnvironmentObjectExampleView.swift */; };
 		8126F1D42B39CB3F005F5175 /* ColorsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8126F1D32B39CB3F005F5175 /* ColorsExampleView.swift */; };
 		8139CDD42B45782A0054E88B /* ConfirmationDialogExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8139CDD32B45782A0054E88B /* ConfirmationDialogExampleView.swift */; };
@@ -97,6 +98,7 @@
 		810727CE2B4D940F002957D1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		810BBAD12B4931FD00CEFEC5 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
 		810BBAD32B493C2800CEFEC5 /* DarkModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeExampleView.swift; sourceTree = "<group>"; };
+		8115FE832B5689CC006C8350 /* ToolbarExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarExampleView.swift; sourceTree = "<group>"; };
 		811708FF2B4C2C590087D9A8 /* EnvironmentObjectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExampleView.swift; sourceTree = "<group>"; };
 		8126F1D32B39CB3F005F5175 /* ColorsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExampleView.swift; sourceTree = "<group>"; };
 		8139CDD32B45782A0054E88B /* ConfirmationDialogExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogExampleView.swift; sourceTree = "<group>"; };
@@ -312,6 +314,7 @@
 				81D7A34F2B5298CC004F76EE /* BadgesExampleView.swift */,
 				815CD0722B52BB0F00BD232F /* FocusStateExampleView.swift */,
 				81F3C9792B5541260020C1CF /* NavigationStackExampleView.swift */,
+				8115FE832B5689CC006C8350 /* ToolbarExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				81882BC72B3ED73F00B4B5DB /* ExtractedFunctionsExampleView.swift in Sources */,
 				81E31FA42B3D80F500B0F9BE /* ScrollViewExampleView.swift in Sources */,
 				81C160BD2B284A7C00FADD0D /* UITestingExampleView.swift in Sources */,
+				8115FE842B5689CC006C8350 /* ToolbarExampleView.swift in Sources */,
 				81BE42382B3B136200B57EA2 /* GradientsExampleView.swift in Sources */,
 				81E31FA92B3DA0AA00B0F9BE /* SafeAreaExampleView.swift in Sources */,
 				81B8B25B2B46E5C0007B3882 /* TextEditorExampleView.swift in Sources */,
