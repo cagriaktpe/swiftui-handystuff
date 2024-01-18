@@ -61,6 +61,7 @@
 		81C160C72B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160C62B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift */; };
 		81C160CE2B2860AC00FADD0D /* UITestingExampleView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */; };
 		81C769DD2B495DD900F34C97 /* DocumentationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C769DC2B495DD900F34C97 /* DocumentationExampleView.swift */; };
+		81D307262B5931BD00FF513C /* SafeAreaInsetExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D307252B5931BD00FF513C /* SafeAreaInsetExampleView.swift */; };
 		81D55E1F2B40034300A36A98 /* TernaryExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D55E1E2B40034300A36A98 /* TernaryExampleView.swift */; };
 		81D55E212B40090700A36A98 /* AnimationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D55E202B40090700A36A98 /* AnimationExampleView.swift */; };
 		81D55E232B4010F800A36A98 /* AnimationTimingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D55E222B4010F800A36A98 /* AnimationTimingExampleView.swift */; };
@@ -151,6 +152,7 @@
 		81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingExampleView_UITests.swift; sourceTree = "<group>"; };
 		81C160CF2B28635000FADD0D /* SwiftUI-HandyStuff.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftUI-HandyStuff.xctestplan"; sourceTree = "<group>"; };
 		81C769DC2B495DD900F34C97 /* DocumentationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationExampleView.swift; sourceTree = "<group>"; };
+		81D307252B5931BD00FF513C /* SafeAreaInsetExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetExampleView.swift; sourceTree = "<group>"; };
 		81D55E1E2B40034300A36A98 /* TernaryExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryExampleView.swift; sourceTree = "<group>"; };
 		81D55E202B40090700A36A98 /* AnimationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleView.swift; sourceTree = "<group>"; };
 		81D55E222B4010F800A36A98 /* AnimationTimingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingExampleView.swift; sourceTree = "<group>"; };
@@ -318,6 +320,7 @@
 				81F3C9792B5541260020C1CF /* NavigationStackExampleView.swift */,
 				8115FE832B5689CC006C8350 /* ToolbarExampleView.swift */,
 				819EAEA32B57B93A006FB929 /* ResizableSheetExampleView.swift */,
+				81D307252B5931BD00FF513C /* SafeAreaInsetExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				81F3C97A2B5541260020C1CF /* NavigationStackExampleView.swift in Sources */,
 				810727CB2B4D287B002957D1 /* IntroExampleView.swift in Sources */,
 				81B8B25D2B46EE9A007B3882 /* ToggleExampleView.swift in Sources */,
+				81D307262B5931BD00FF513C /* SafeAreaInsetExampleView.swift in Sources */,
 				8155D9D02B4559E500B3700E /* AlertExampleView.swift in Sources */,
 				8188C7662B499482003A1BCE /* TapGestureView.swift in Sources */,
 				81FF1D482B4BF45500B80EED /* ViewModelExampleView.swift in Sources */,
