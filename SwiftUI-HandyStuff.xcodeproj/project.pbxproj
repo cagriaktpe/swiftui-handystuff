@@ -72,6 +72,7 @@
 		81D7A34E2B528D4E004F76EE /* ListSwipeActionsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7A34D2B528D4E004F76EE /* ListSwipeActionsExampleView.swift */; };
 		81D7A3502B5298CC004F76EE /* BadgesExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7A34F2B5298CC004F76EE /* BadgesExampleView.swift */; };
 		81DE3B7C2B497B4500CC7DA9 /* OnAppearExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DE3B7B2B497B4500CC7DA9 /* OnAppearExampleView.swift */; };
+		81E0419A2B5942FE00F996A8 /* GroupExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E041992B5942FE00F996A8 /* GroupExampleView.swift */; };
 		81E31F9E2B3D5A5D00B0F9BE /* SpacerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31F9D2B3D5A5D00B0F9BE /* SpacerExampleView.swift */; };
 		81E31FA02B3D637900B0F9BE /* InitializerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31F9F2B3D637900B0F9BE /* InitializerExampleView.swift */; };
 		81E31FA22B3D6F0C00B0F9BE /* ForEachExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA12B3D6F0C00B0F9BE /* ForEachExampleView.swift */; };
@@ -163,6 +164,7 @@
 		81D7A34D2B528D4E004F76EE /* ListSwipeActionsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsExampleView.swift; sourceTree = "<group>"; };
 		81D7A34F2B5298CC004F76EE /* BadgesExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesExampleView.swift; sourceTree = "<group>"; };
 		81DE3B7B2B497B4500CC7DA9 /* OnAppearExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearExampleView.swift; sourceTree = "<group>"; };
+		81E041992B5942FE00F996A8 /* GroupExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupExampleView.swift; sourceTree = "<group>"; };
 		81E31F9D2B3D5A5D00B0F9BE /* SpacerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleView.swift; sourceTree = "<group>"; };
 		81E31F9F2B3D637900B0F9BE /* InitializerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerExampleView.swift; sourceTree = "<group>"; };
 		81E31FA12B3D6F0C00B0F9BE /* ForEachExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExampleView.swift; sourceTree = "<group>"; };
@@ -321,6 +323,7 @@
 				8115FE832B5689CC006C8350 /* ToolbarExampleView.swift */,
 				819EAEA32B57B93A006FB929 /* ResizableSheetExampleView.swift */,
 				81D307252B5931BD00FF513C /* SafeAreaInsetExampleView.swift */,
+				81E041992B5942FE00F996A8 /* GroupExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -454,6 +457,7 @@
 				8126F1D42B39CB3F005F5175 /* ColorsExampleView.swift in Sources */,
 				813F575C2B4841160020D00C /* ColorPickerExampleView.swift in Sources */,
 				81BE423C2B3B27C700B57EA2 /* ImageExampleView.swift in Sources */,
+				81E0419A2B5942FE00F996A8 /* GroupExampleView.swift in Sources */,
 				81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */,
 				81882BC32B3EC98F00B4B5DB /* ButtonExampleView.swift in Sources */,
 				819EAEA42B57B93A006FB929 /* ResizableSheetExampleView.swift in Sources */,
