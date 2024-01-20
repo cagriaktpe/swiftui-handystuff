@@ -46,6 +46,7 @@
 		81A8BE122B2451CB0082CBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE112B2451CB0082CBFE /* Assets.xcassets */; };
 		81A8BE152B2451CB0082CBFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE142B2451CB0082CBFE /* Preview Assets.xcassets */; };
 		81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE1B2B2452140082CBFE /* GeometryReaderView.swift */; };
+		81B773192B5BC69B005ADF1F /* AnimationUpdatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B773182B5BC69B005ADF1F /* AnimationUpdatedExampleView.swift */; };
 		81B8B2572B4695B1007B3882 /* ContextMenuExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8B2562B4695B1007B3882 /* ContextMenuExampleView.swift */; };
 		81B8B2592B46A79F007B3882 /* TextFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8B2582B46A79F007B3882 /* TextFieldExampleView.swift */; };
 		81B8B25B2B46E5C0007B3882 /* TextEditorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8B25A2B46E5C0007B3882 /* TextEditorExampleView.swift */; };
@@ -136,6 +137,7 @@
 		81A8BE112B2451CB0082CBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A8BE142B2451CB0082CBFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81A8BE1B2B2452140082CBFE /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		81B773182B5BC69B005ADF1F /* AnimationUpdatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUpdatedExampleView.swift; sourceTree = "<group>"; };
 		81B8B2562B4695B1007B3882 /* ContextMenuExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuExampleView.swift; sourceTree = "<group>"; };
 		81B8B2582B46A79F007B3882 /* TextFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleView.swift; sourceTree = "<group>"; };
 		81B8B25A2B46E5C0007B3882 /* TextEditorExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorExampleView.swift; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 				819EAEA32B57B93A006FB929 /* ResizableSheetExampleView.swift */,
 				81D307252B5931BD00FF513C /* SafeAreaInsetExampleView.swift */,
 				81E041992B5942FE00F996A8 /* GroupExampleView.swift */,
+				81B773182B5BC69B005ADF1F /* AnimationUpdatedExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				813F575C2B4841160020D00C /* ColorPickerExampleView.swift in Sources */,
 				81BE423C2B3B27C700B57EA2 /* ImageExampleView.swift in Sources */,
 				81E0419A2B5942FE00F996A8 /* GroupExampleView.swift in Sources */,
+				81B773192B5BC69B005ADF1F /* AnimationUpdatedExampleView.swift in Sources */,
 				81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */,
 				81882BC32B3EC98F00B4B5DB /* ButtonExampleView.swift in Sources */,
 				819EAEA42B57B93A006FB929 /* ResizableSheetExampleView.swift in Sources */,
