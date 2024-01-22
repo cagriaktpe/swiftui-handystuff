@@ -64,6 +64,7 @@
 		81C160C72B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160C62B285F1C00FADD0D /* SwiftUI_HandyStuffUI_TestsLaunchTests.swift */; };
 		81C160CE2B2860AC00FADD0D /* UITestingExampleView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */; };
 		81C769DD2B495DD900F34C97 /* DocumentationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C769DC2B495DD900F34C97 /* DocumentationExampleView.swift */; };
+		81CF1AAF2B5E4315008243D4 /* AnyLayoutExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF1AAE2B5E4315008243D4 /* AnyLayoutExampleView.swift */; };
 		81D307262B5931BD00FF513C /* SafeAreaInsetExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D307252B5931BD00FF513C /* SafeAreaInsetExampleView.swift */; };
 		81D55E1F2B40034300A36A98 /* TernaryExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D55E1E2B40034300A36A98 /* TernaryExampleView.swift */; };
 		81D55E212B40090700A36A98 /* AnimationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D55E202B40090700A36A98 /* AnimationExampleView.swift */; };
@@ -159,6 +160,7 @@
 		81C160CD2B2860AC00FADD0D /* UITestingExampleView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingExampleView_UITests.swift; sourceTree = "<group>"; };
 		81C160CF2B28635000FADD0D /* SwiftUI-HandyStuff.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftUI-HandyStuff.xctestplan"; sourceTree = "<group>"; };
 		81C769DC2B495DD900F34C97 /* DocumentationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationExampleView.swift; sourceTree = "<group>"; };
+		81CF1AAE2B5E4315008243D4 /* AnyLayoutExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutExampleView.swift; sourceTree = "<group>"; };
 		81D307252B5931BD00FF513C /* SafeAreaInsetExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetExampleView.swift; sourceTree = "<group>"; };
 		81D55E1E2B40034300A36A98 /* TernaryExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryExampleView.swift; sourceTree = "<group>"; };
 		81D55E202B40090700A36A98 /* AnimationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleView.swift; sourceTree = "<group>"; };
@@ -333,6 +335,7 @@
 				81B773182B5BC69B005ADF1F /* AnimationUpdatedExampleView.swift */,
 				81B7731A2B5BCF8A005ADF1F /* MenuExampleView.swift */,
 				81B7731C2B5BD0E4005ADF1F /* NativePopoverExampleView.swift */,
+				81CF1AAE2B5E4315008243D4 /* AnyLayoutExampleView.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				813F575E2B4843F50020D00C /* DatePickerExampleView.swift in Sources */,
 				819A924C2B4C44180082595C /* AppStorageExampleView.swift in Sources */,
 				81BE42402B3C1E0F00B57EA2 /* BackgroundAndOverlayExampleView.swift in Sources */,
+				81CF1AAF2B5E4315008243D4 /* AnyLayoutExampleView.swift in Sources */,
 				81E31FA02B3D637900B0F9BE /* InitializerExampleView.swift in Sources */,
 				818884182B3712A900236EE4 /* ShapesExampleView.swift in Sources */,
 				81882BC52B3ECF0100B4B5DB /* StateExampleView.swift in Sources */,
