@@ -36,14 +36,14 @@ struct PopoverExampleView: View {
 
             }
             
-//            // MARK: METHOD 2 - TRANSITION
+            // MARK: METHOD 2 - TRANSITION
 //            if showNewScreen {
 //                NewScreen(showNewScreen: $showNewScreen)
 //                    .padding(.top, 100)
 //                    .transition(.move(edge: .bottom))
 //            }
             
-            // MARK: METHOD 3 - ANIMATION OFFSET
+             //MARK: METHOD 3 - ANIMATION OFFSET
             NewScreen(showNewScreen: $showNewScreen)
                 .padding(.top, 100)
                 .offset(y: showNewScreen ? 0 : UIScreen.main.bounds.height)
