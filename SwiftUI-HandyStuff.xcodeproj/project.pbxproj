@@ -88,6 +88,7 @@
 		81E31FA92B3DA0AA00B0F9BE /* SafeAreaExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA82B3DA0AA00B0F9BE /* SafeAreaExampleView.swift */; };
 		81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */; };
 		81F3C97A2B5541260020C1CF /* NavigationStackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F3C9792B5541260020C1CF /* NavigationStackExampleView.swift */; };
+		81F9C5712B98562400198EEC /* RotationGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F9C5702B98562400198EEC /* RotationGestureExampleView.swift */; };
 		81FF1D462B4BE73F00B80EED /* ModelExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF1D452B4BE73F00B80EED /* ModelExampleView.swift */; };
 		81FF1D482B4BF45500B80EED /* ViewModelExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF1D472B4BF45500B80EED /* ViewModelExampleView.swift */; };
 /* End PBXBuildFile section */
@@ -187,6 +188,7 @@
 		81E31FA82B3DA0AA00B0F9BE /* SafeAreaExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExampleView.swift; sourceTree = "<group>"; };
 		81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		81F3C9792B5541260020C1CF /* NavigationStackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackExampleView.swift; sourceTree = "<group>"; };
+		81F9C5702B98562400198EEC /* RotationGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExampleView.swift; sourceTree = "<group>"; };
 		81FF1D452B4BE73F00B80EED /* ModelExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExampleView.swift; sourceTree = "<group>"; };
 		81FF1D472B4BF45500B80EED /* ViewModelExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -277,6 +279,7 @@
 			children = (
 				81C445A02B920F96006190E7 /* LongPressGestureExampleView.swift */,
 				813F711C2B960AC200B16910 /* MagnificationGestureExampleView.swift */,
+				81F9C5702B98562400198EEC /* RotationGestureExampleView.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -480,6 +483,7 @@
 				8139CDD42B45782A0054E88B /* ConfirmationDialogExampleView.swift in Sources */,
 				81E31F9E2B3D5A5D00B0F9BE /* SpacerExampleView.swift in Sources */,
 				812646042B6390F600DE495A /* ViewThatFitsExampleView.swift in Sources */,
+				81F9C5712B98562400198EEC /* RotationGestureExampleView.swift in Sources */,
 				81E31FA22B3D6F0C00B0F9BE /* ForEachExampleView.swift in Sources */,
 				81B7731B2B5BCF8A005ADF1F /* MenuExampleView.swift in Sources */,
 				810727CF2B4D940F002957D1 /* ProfileView.swift in Sources */,
