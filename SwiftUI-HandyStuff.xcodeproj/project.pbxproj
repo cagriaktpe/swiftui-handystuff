@@ -22,6 +22,8 @@
 		813F57602B484B6E0020D00C /* StepperExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F575F2B484B6E0020D00C /* StepperExampleView.swift */; };
 		813F57622B484EEF0020D00C /* SliderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F57612B484EEF0020D00C /* SliderExampleView.swift */; };
 		813F711D2B960AC200B16910 /* MagnificationGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F711C2B960AC200B16910 /* MagnificationGestureExampleView.swift */; };
+		814580B32B9EE15E001842CC /* DragGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814580B22B9EE15E001842CC /* DragGestureExampleView.swift */; };
+		814580B52B9EE986001842CC /* DragGestureExample2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814580B42B9EE986001842CC /* DragGestureExample2View.swift */; };
 		8155AAB42B441425005A9BBB /* ListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155AAB32B441425005A9BBB /* ListExampleView.swift */; };
 		8155D9D02B4559E500B3700E /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155D9CF2B4559E500B3700E /* AlertExampleView.swift */; };
 		815C86CE2B51822A00720D81 /* BackgroundMaterialsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C86CD2B51822A00720D81 /* BackgroundMaterialsExampleView.swift */; };
@@ -119,6 +121,8 @@
 		813F575F2B484B6E0020D00C /* StepperExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleView.swift; sourceTree = "<group>"; };
 		813F57612B484EEF0020D00C /* SliderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExampleView.swift; sourceTree = "<group>"; };
 		813F711C2B960AC200B16910 /* MagnificationGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureExampleView.swift; sourceTree = "<group>"; };
+		814580B22B9EE15E001842CC /* DragGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExampleView.swift; sourceTree = "<group>"; };
+		814580B42B9EE986001842CC /* DragGestureExample2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExample2View.swift; sourceTree = "<group>"; };
 		8155AAB32B441425005A9BBB /* ListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
 		8155D9CF2B4559E500B3700E /* AlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleView.swift; sourceTree = "<group>"; };
 		815C86CD2B51822A00720D81 /* BackgroundMaterialsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsExampleView.swift; sourceTree = "<group>"; };
@@ -280,6 +284,8 @@
 				81C445A02B920F96006190E7 /* LongPressGestureExampleView.swift */,
 				813F711C2B960AC200B16910 /* MagnificationGestureExampleView.swift */,
 				81F9C5702B98562400198EEC /* RotationGestureExampleView.swift */,
+				814580B22B9EE15E001842CC /* DragGestureExampleView.swift */,
+				814580B42B9EE986001842CC /* DragGestureExample2View.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -471,6 +477,7 @@
 				815C86CE2B51822A00720D81 /* BackgroundMaterialsExampleView.swift in Sources */,
 				81D7A34E2B528D4E004F76EE /* ListSwipeActionsExampleView.swift in Sources */,
 				815C86D02B5184AC00720D81 /* TextSelectionExampleView.swift in Sources */,
+				814580B32B9EE15E001842CC /* DragGestureExampleView.swift in Sources */,
 				813F57622B484EEF0020D00C /* SliderExampleView.swift in Sources */,
 				81B7731D2B5BD0E4005ADF1F /* NativePopoverExampleView.swift in Sources */,
 				81BE423A2B3B1EF400B57EA2 /* IconsExampleView.swift in Sources */,
@@ -495,6 +502,7 @@
 				813F575C2B4841160020D00C /* ColorPickerExampleView.swift in Sources */,
 				81BE423C2B3B27C700B57EA2 /* ImageExampleView.swift in Sources */,
 				81E0419A2B5942FE00F996A8 /* GroupExampleView.swift in Sources */,
+				814580B52B9EE986001842CC /* DragGestureExample2View.swift in Sources */,
 				81B773192B5BC69B005ADF1F /* AnimationUpdatedExampleView.swift in Sources */,
 				81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */,
 				81882BC32B3EC98F00B4B5DB /* ButtonExampleView.swift in Sources */,

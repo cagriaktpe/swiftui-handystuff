@@ -21,7 +21,7 @@ struct SwiftUI_HandyStuffApp: App {
     
     var body: some Scene {
         WindowGroup {
-            RotationGestureExampleView()
+            DragGestureExampleView()
         }
     }
 }
