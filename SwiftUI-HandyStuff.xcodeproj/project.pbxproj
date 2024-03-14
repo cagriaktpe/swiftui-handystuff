@@ -50,7 +50,6 @@
 		81A8BE102B2451C90082CBFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE0F2B2451C90082CBFE /* ContentView.swift */; };
 		81A8BE122B2451CB0082CBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE112B2451CB0082CBFE /* Assets.xcassets */; };
 		81A8BE152B2451CB0082CBFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8BE142B2451CB0082CBFE /* Preview Assets.xcassets */; };
-		81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8BE1B2B2452140082CBFE /* GeometryReaderView.swift */; };
 		81B773192B5BC69B005ADF1F /* AnimationUpdatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B773182B5BC69B005ADF1F /* AnimationUpdatedExampleView.swift */; };
 		81B7731B2B5BCF8A005ADF1F /* MenuExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7731A2B5BCF8A005ADF1F /* MenuExampleView.swift */; };
 		81B7731D2B5BD0E4005ADF1F /* NativePopoverExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7731C2B5BD0E4005ADF1F /* NativePopoverExampleView.swift */; };
@@ -91,6 +90,7 @@
 		81E31FA72B3D8AEF00B0F9BE /* GridExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA62B3D8AEF00B0F9BE /* GridExampleView.swift */; };
 		81E31FA92B3DA0AA00B0F9BE /* SafeAreaExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E31FA82B3DA0AA00B0F9BE /* SafeAreaExampleView.swift */; };
 		81E67F672B36EF4E00D2DB62 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */; };
+		81E71E1E2BA34D6E005DBF0A /* GeometryReaderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E71E1D2BA34D6E005DBF0A /* GeometryReaderExampleView.swift */; };
 		81F3C97A2B5541260020C1CF /* NavigationStackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F3C9792B5541260020C1CF /* NavigationStackExampleView.swift */; };
 		81F9C5712B98562400198EEC /* RotationGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F9C5702B98562400198EEC /* RotationGestureExampleView.swift */; };
 		81FF1D462B4BE73F00B80EED /* ModelExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF1D452B4BE73F00B80EED /* ModelExampleView.swift */; };
@@ -152,7 +152,6 @@
 		81A8BE0F2B2451C90082CBFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81A8BE112B2451CB0082CBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A8BE142B2451CB0082CBFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		81A8BE1B2B2452140082CBFE /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		81B773182B5BC69B005ADF1F /* AnimationUpdatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUpdatedExampleView.swift; sourceTree = "<group>"; };
 		81B7731A2B5BCF8A005ADF1F /* MenuExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuExampleView.swift; sourceTree = "<group>"; };
 		81B7731C2B5BD0E4005ADF1F /* NativePopoverExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverExampleView.swift; sourceTree = "<group>"; };
@@ -195,6 +194,7 @@
 		81E31FA62B3D8AEF00B0F9BE /* GridExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridExampleView.swift; sourceTree = "<group>"; };
 		81E31FA82B3DA0AA00B0F9BE /* SafeAreaExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExampleView.swift; sourceTree = "<group>"; };
 		81E67F662B36EF4E00D2DB62 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
+		81E71E1D2BA34D6E005DBF0A /* GeometryReaderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExampleView.swift; sourceTree = "<group>"; };
 		81F3C9792B5541260020C1CF /* NavigationStackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackExampleView.swift; sourceTree = "<group>"; };
 		81F9C5702B98562400198EEC /* RotationGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExampleView.swift; sourceTree = "<group>"; };
 		81FF1D452B4BE73F00B80EED /* ModelExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExampleView.swift; sourceTree = "<group>"; };
@@ -258,7 +258,6 @@
 				81A8BE0F2B2451C90082CBFE /* ContentView.swift */,
 				81A8BE112B2451CB0082CBFE /* Assets.xcassets */,
 				81A8BE132B2451CB0082CBFE /* Preview Content */,
-				81A8BE1B2B2452140082CBFE /* GeometryReaderView.swift */,
 				81C160BC2B284A7C00FADD0D /* UITestingExampleView.swift */,
 			);
 			path = "SwiftUI-HandyStuff";
@@ -292,6 +291,7 @@
 				814580B42B9EE986001842CC /* DragGestureExample2View.swift */,
 				8178D8EA2BA0942B00FA74B0 /* MultipleSheetsExampleView.swift */,
 				81C765C62BA2030F00E8CD0C /* ScrollViewReaderExampleView.swift */,
+				81E71E1D2BA34D6E005DBF0A /* GeometryReaderExampleView.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -544,7 +544,7 @@
 				81B8B25B2B46E5C0007B3882 /* TextEditorExampleView.swift in Sources */,
 				811709002B4C2C590087D9A8 /* EnvironmentObjectExampleView.swift in Sources */,
 				81C445A12B920F96006190E7 /* LongPressGestureExampleView.swift in Sources */,
-				81A8BE1C2B2452140082CBFE /* GeometryReaderView.swift in Sources */,
+				81E71E1E2BA34D6E005DBF0A /* GeometryReaderExampleView.swift in Sources */,
 				81882BCE2B3F092600B4B5DB /* BindingExampleView.swift in Sources */,
 				81BE423E2B3C11A000B57EA2 /* FrameExampleView.swift in Sources */,
 				81F3C97A2B5541260020C1CF /* NavigationStackExampleView.swift in Sources */,
